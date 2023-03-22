@@ -1,0 +1,45 @@
+body {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.centraltop {
+    height: 50px;
+    text-align: center;
+    padding: 0px;
+}
+
+h1 h4{
+    font-weight: bold;
+
+}
+
+.boxcard {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.card {
+    width: 150px;
+    height: 350px;
+    border-style: solid;
+    border-color: grey;
+}
+
+.through {
+    text-decoration: line-through;
+}
+
+.red {
+    color: red;
+    font-weight: bold; 
+}
+
+.grey {
+    color: grey; 
+}
+
