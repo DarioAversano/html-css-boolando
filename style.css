@@ -4,12 +4,13 @@ body {
 }
 
 .centraltop {
+    margin-left: 50px;
     height: 50px;
     text-align: center;
     padding: 0px;
 }
 
-h1 h4{
+h1 h5{
     font-weight: bold;
 
 }
@@ -19,15 +20,16 @@ h1 h4{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 50px;
 }
 
 .card {
-    width: 150px;
+    width: 240px;
     height: 350px;
     border-style: solid;
     border-color: grey;
+    margin-top: 20px;
 }
 
 .through {
