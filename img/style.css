@@ -1,0 +1,45 @@
+body {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.centralhead {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.centralmain {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.boxcard {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    height: 100px;
+
+    background-color: black;
+    color: red;
+}
+
+.imgcard {
+    align-self: flex-start;
+}
+
